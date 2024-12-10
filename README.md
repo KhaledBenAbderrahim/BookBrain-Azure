@@ -1,20 +1,101 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# BookBrain-Azure 
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+An advanced serverless platform that revolutionizes educational content processing and study analytics.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Key Features
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+- **Automated PDF Processing**: Intelligent chunking and analysis of educational materials
+- **Study Progress Analytics**: Real-time tracking of learning achievements
+- **Smart Content Organization**: AI-powered content structuring and categorization
+- **Serverless Architecture**: Built on Azure Functions for scalability and performance
+- **Seamless Integration**: Works with various educational platforms and content formats
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## Tech Stack
+
+- Azure Functions
+- Python
+- Azure Storage
+- PostgreSQL
+- OpenAI Integration
+- Swagger API Documentation
+
+## Components
+
+1. **PDF Chunking Function**
+   - Processes PDF books into meaningful chunks
+   - Extracts and analyzes content structure
+   - Stores processed data efficiently
+
+2. **Study Progress Function**
+   - Tracks learning progress by chapter
+   - Generates progress analytics
+   - Provides achievement insights
+
+3. **Upload Book Function**
+   - Handles secure book uploads
+   - Processes metadata
+   - Initiates processing workflow
+
+4. **Hourly Study Digest**
+   - Generates periodic study summaries
+   - Tracks learning patterns
+   - Provides performance metrics
+
+## Setup & Configuration
+
+1. Clone the repository
+```bash
+git clone https://github.com/KhaledBenAbderrahim/BookBrain-Azure.git
+```
+
+2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+3. Configure environment variables
+   - Copy `.env.example` to `.env`
+   - Fill in your Azure credentials and other settings
+
+4. Start the Azure Functions host
+```bash
+func start
+```
+
+## Environment Variables
+
+Required environment variables (see `.env.example`):
+- `AZURE_STORAGE_CONNECTION_STRING`: Azure Storage connection string
+- `DB_HOST`: Database host
+- `DB_NAME`: Database name
+- `DB_USER`: Database user
+- `DB_PASSWORD`: Database password
+- Other API endpoints and configuration values
+
+## Target Users
+
+- Educational Institutions
+- E-Learning Platforms
+- Students and Educators
+- Content Publishers
+- Learning Management Systems
+
+## API Documentation
+
+API documentation is available via Swagger UI at `/api/swagger/ui`.
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a new Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+Built with  for the future of education
