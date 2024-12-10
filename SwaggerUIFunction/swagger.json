@@ -1,0 +1,122 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Azure Functions API",
+    "description": "API for study digest, PDF processing, and book upload",
+    "version": "1.0.3"
+  },
+  "servers": [
+    {
+      "url": "{baseUrl}",
+      "description": "Azure hosted server",
+      "variables": {
+        "baseUrl": {
+          "default": "https://your-function-app.azurewebsites.net/api",
+          "description": "Base URL for the API"
+        }
+      }
+    }
+  ],
+  "paths": {
+    "/pdfchun": {
+      "post": {
+        "summary": "Process and chunk a PDF book",
+        "description": "Processes a PDF book, chunks it, and stores the chunks in the database",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "code",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Authentication code"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "book_id": {
+                    "type": "integer",
+                    "description": "The ID of the book to be processed"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful processing"
+          },
+          "400": {
+            "description": "Bad request - missing or invalid book_id"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      }
+    },
+    "/UploadBookFunc": {
+      "post": {
+        "summary": "Upload a book and its metadata",
+        "description": "Uploads a PDF file and its metadata, then initiates the processing workflow.",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "code",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Authentication code"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary",
+                    "description": "The PDF file to upload"
+                  },
+                  "book_data": {
+                    "type": "string",
+                    "description": "Book metadata in JSON format",
+                    "example": {
+                      "title": "Sample Book",
+                      "author": "John Doe",
+                      "subtitle": "A Study Guide",
+                      "isbn": "123-456-789",
+                      "subject_id": 1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful upload and processing"
+          },
+          "400": {
+            "description": "Bad request - invalid file or metadata"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      }
+    }
+  }
+}
