@@ -22,24 +22,20 @@ An advanced serverless platform that revolutionizes educational content processi
 ## Components
 
 1. **PDF Chunking Function**
-   - Processes PDF books into meaningful chunks
-   - Extracts and analyzes content structure
-   - Stores processed data efficiently
+   
+   ![PDF Chunking Function](https://github.com/KhaledBenAbderrahim/CSRD/blob/main/images/chunk%20_%20pdf%20chunking%20function.png)
 
 2. **Study Progress Function**
-   - Tracks learning progress by chapter
-   - Generates progress analytics
-   - Provides achievement insights
+   
+   ![Study Progress Function](https://github.com/KhaledBenAbderrahim/CSRD/blob/main/images/chunk%20_%20Study%20progress%20function.png)
 
 3. **Upload Book Function**
-   - Handles secure book uploads
-   - Processes metadata
-   - Initiates processing workflow
+   
+   ![Upload Book Function](https://github.com/KhaledBenAbderrahim/CSRD/blob/main/images/chunk%20_%20upload%20book%20function.png)
 
 4. **Hourly Study Digest**
-   - Generates periodic study summaries
-   - Tracks learning patterns
-   - Provides performance metrics
+   
+   ![Hourly Study Digest](https://github.com/KhaledBenAbderrahim/CSRD/blob/main/images/chunk%20_%20Hourly%20Study%20Digest.png)
 
 ## Setup & Configuration
 
