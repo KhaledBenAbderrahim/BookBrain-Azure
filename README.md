@@ -21,21 +21,36 @@ An advanced serverless platform that revolutionizes educational content processi
 
 ## Components
 
-1. **PDF Chunking Function**
-   
-   ![PDF Chunking Function](https://github.com/KhaledBenAbderrahim/CSRD/blob/main/images/chunk%20_%20pdf%20chunking%20function.png)
+<table>
+<tr>
+<td width="50%">
 
-2. **Study Progress Function**
-   
-   ![Study Progress Function](https://github.com/KhaledBenAbderrahim/CSRD/blob/main/images/chunk%20_%20Study%20progress%20function.png)
+### 1. PDF Chunking Function
+<img src="https://github.com/KhaledBenAbderrahim/CSRD/blob/main/images/chunk%20_%20pdf%20chunking%20function.png" width="100%">
 
-3. **Upload Book Function**
-   
-   ![Upload Book Function](https://github.com/KhaledBenAbderrahim/CSRD/blob/main/images/chunk%20_%20upload%20book%20function.png)
+</td>
+<td width="50%">
 
-4. **Hourly Study Digest**
-   
-   ![Hourly Study Digest](https://github.com/KhaledBenAbderrahim/CSRD/blob/main/images/chunk%20_%20Hourly%20Study%20Digest.png)
+### 2. Study Progress Function
+<img src="https://github.com/KhaledBenAbderrahim/CSRD/blob/main/images/chunk%20_%20Study%20progress%20function.png" width="100%">
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 3. Upload Book Function
+<img src="https://github.com/KhaledBenAbderrahim/CSRD/blob/main/images/chunk%20_%20upload%20book%20function.png" width="100%">
+
+</td>
+<td width="50%">
+
+### 4. Hourly Study Digest
+<img src="https://github.com/KhaledBenAbderrahim/CSRD/blob/main/images/chunk%20_%20Hourly%20Study%20Digest.png" width="100%">
+
+</td>
+</tr>
+</table>
 
 ## Setup & Configuration
 
