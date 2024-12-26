@@ -1,21 +1,59 @@
-# BookBrain-Azure 
+# <div align="center">🧠 BookBrain-Azure</div>
 
-An advanced serverless platform that revolutionizes educational content processing and study analytics.
+<div align="center">
+  <p>
+    <strong>An advanced serverless platform that revolutionizes educational content processing and study analytics.</strong>
+  </p>
+  <p>
+    <a href="#key-features">Features</a> •
+    <a href="#tech-stack">Tech Stack</a> •
+    <a href="#components">Components</a> •
+    <a href="#setup--configuration">Setup</a> •
+    <a href="#api-documentation">API Docs</a>
+  </p>
+</div>
 
-## Key Features
+<div align="center">
+  <img src="https://img.shields.io/badge/Azure%20Functions-0062AD?style=for-the-badge&logo=azure-functions&logoColor=white">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white">
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
+</div>
 
-<img src="https://github.com/KhaledBenAbderrahim/CSRD/blob/main/images/chunk%20_%20bookBrain%20features.png" width="100%">
+---
 
-## Tech Stack
+## 🎯 Key Features
 
-- Azure Functions
-- Python
-- Azure Storage
-- PostgreSQL
-- OpenAI Integration
-- Swagger API Documentation
+<div align="center">
+  <img src="https://github.com/KhaledBenAbderrahim/CSRD/blob/main/images/chunk%20_%20bookBrain%20features.png" width="80%">
+</div>
 
-## Components
+## 🛠️ Tech Stack
+
+<div style="background-color: #f6f8fa; padding: 20px; border-radius: 8px;">
+<table>
+<tr>
+<td align="center" width="25%">
+<img width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg">
+<br>Azure Functions
+</td>
+<td align="center" width="25%">
+<img width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+<br>Python
+</td>
+<td align="center" width="25%">
+<img width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg">
+<br>PostgreSQL
+</td>
+<td align="center" width="25%">
+<img width="40" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/openai.svg">
+<br>OpenAI
+</td>
+</tr>
+</table>
+</div>
+
+## 💡 Components
 
 <table>
 <tr>
@@ -48,7 +86,10 @@ An advanced serverless platform that revolutionizes educational content processi
 </tr>
 </table>
 
-## Setup & Configuration
+## ⚙️ Setup & Configuration
+
+<details>
+<summary>📥 Installation Steps</summary>
 
 1. Clone the repository
 ```bash
@@ -68,8 +109,10 @@ pip install -r requirements.txt
 ```bash
 func start
 ```
+</details>
 
-## Environment Variables
+<details>
+<summary>🔑 Environment Variables</summary>
 
 Required environment variables (see `.env.example`):
 - `AZURE_STORAGE_CONNECTION_STRING`: Azure Storage connection string
@@ -78,31 +121,51 @@ Required environment variables (see `.env.example`):
 - `DB_USER`: Database user
 - `DB_PASSWORD`: Database password
 - Other API endpoints and configuration values
+</details>
 
-## Target Users
+## 👥 Target Users
 
-- Educational Institutions
-- E-Learning Platforms
-- Students and Educators
-- Content Publishers
-- Learning Management Systems
+<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+  <div style="text-align: center; padding: 10px;">
+    <h3>🎓</h3>
+    Educational Institutions
+  </div>
+  <div style="text-align: center; padding: 10px;">
+    <h3>💻</h3>
+    E-Learning Platforms
+  </div>
+  <div style="text-align: center; padding: 10px;">
+    <h3>📚</h3>
+    Students and Educators
+  </div>
+  <div style="text-align: center; padding: 10px;">
+    <h3>📖</h3>
+    Content Publishers
+  </div>
+</div>
 
-## API Documentation
+## 📚 API Documentation
 
 API documentation is available via Swagger UI at `/api/swagger/ui`.
 
-## Contributing
+## 🤝 Contributing
+
+<details>
+<summary>How to Contribute</summary>
 
 1. Fork the repository
 2. Create your feature branch
 3. Commit your changes
 4. Push to the branch
 5. Create a new Pull Request
+</details>
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
-Built with  for the future of education
+<div align="center">
+  Built with ❤️ for the future of education
+</div>
