@@ -4,11 +4,7 @@ An advanced serverless platform that revolutionizes educational content processi
 
 ## Key Features
 
-- **Automated PDF Processing**: Intelligent chunking and analysis of educational materials
-- **Study Progress Analytics**: Real-time tracking of learning achievements
-- **Smart Content Organization**: AI-powered content structuring and categorization
-- **Serverless Architecture**: Built on Azure Functions for scalability and performance
-- **Seamless Integration**: Works with various educational platforms and content formats
+<img src="https://github.com/KhaledBenAbderrahim/CSRD/blob/main/images/chunk%20_%20bookBrain%20features.png" width="100%">
 
 ## Tech Stack
 
